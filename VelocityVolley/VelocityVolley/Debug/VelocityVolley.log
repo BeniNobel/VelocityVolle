@@ -1,0 +1,29 @@
+﻿  Ball.cpp
+  Game.cpp
+B:\IB05\C\VelocityVolley\VelocityVolley\Game.h(10,10): error C1083: Cannot open include file: 'raylib.h': No such file or directory
+  (compiling source file 'Ball.cpp')
+  
+B:\IB05\C\VelocityVolley\VelocityVolley\Game.h(10,10): error C1083: Cannot open include file: 'raylib.h': No such file or directory
+  (compiling source file 'Game.cpp')
+  
+  GameFunctions.cpp
+B:\IB05\C\VelocityVolley\VelocityVolley\Game.h(10,10): error C1083: Cannot open include file: 'raylib.h': No such file or directory
+  (compiling source file 'GameFunctions.cpp')
+  
+  Line.cpp
+B:\IB05\C\VelocityVolley\VelocityVolley\Game.h(10,10): error C1083: Cannot open include file: 'raylib.h': No such file or directory
+  (compiling source file 'Line.cpp')
+  
+  Paddle.cpp
+B:\IB05\C\VelocityVolley\VelocityVolley\Game.h(10,10): error C1083: Cannot open include file: 'raylib.h': No such file or directory
+  (compiling source file 'Paddle.cpp')
+  
+  Scores.cpp
+B:\IB05\C\VelocityVolley\VelocityVolley\Game.h(10,10): error C1083: Cannot open include file: 'raylib.h': No such file or directory
+  (compiling source file 'Scores.cpp')
+  
+  Sound.cpp
+B:\IB05\C\VelocityVolley\VelocityVolley\Game.h(10,10): error C1083: Cannot open include file: 'raylib.h': No such file or directory
+  (compiling source file 'Sound.cpp')
+  
+  Generating Code...
