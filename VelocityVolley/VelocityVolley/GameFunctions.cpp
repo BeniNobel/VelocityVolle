@@ -9,7 +9,6 @@
 
 /**
   Clamps a given value between a specified minimum and maximum.
-
   @param value - the value to be clamped
   @param min - the minimum value allowed
   @param max - the maximum value allowed
@@ -23,7 +22,6 @@ float clamp(float value, float min, float max) {
 
 /**
   Checks collision between a circle and a rectangle.
-
   @param ballX - x-coordinate of the circle center
   @param ballY - y-coordinate of the circle center
   @param ballRadius - radius of the circle

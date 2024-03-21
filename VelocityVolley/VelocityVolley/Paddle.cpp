@@ -24,67 +24,133 @@ void Paddle::limitPaddleRange() {
 
 // Getter functions
 
+/**
+  Returns the width of the paddle.
+  @return - width of the paddle
+*/
 float Paddle::getPaddleWidth() const {
     return paddle_width;
 }
 
+/**
+  Returns the height of the paddle.
+  @return - height of the paddle
+*/
 float Paddle::getPaddleHeight() const {
     return paddle_height;
 }
 
+/**
+  Returns the x-coordinate of the paddle.
+  @return - x-coordinate of the paddle
+*/
 float Paddle::getPaddleX() const {
     return paddle_x;
 }
 
+/**
+  Returns the y-coordinate of the paddle.
+  @return - y-coordinate of the paddle
+*/
 float Paddle::getPaddleY() const {
     return paddle_y;
 }
 
+/**
+  Returns the speed of the paddle.
+  @return - speed of the paddle
+*/
 int Paddle::getPaddleSpeed() const {
     return paddle_speed;
 }
 
+/**
+  Returns the segment of the paddle.
+  @return - segment of the paddle
+*/
 int Paddle::getSegment() const {
     return segment;
 }
 
+/**
+  Returns the roundness of the paddle.
+  @return - roundness of the paddle
+
+*/
 float Paddle::getRoundness() const {
     return roundness;
 }
 
+/**
+  Returns the color of the paddle.
+  @return - color of the paddle
+*/
 Color Paddle::getPaddleColor() const {
     return paddle_color;
 }
 
 // Setter functions
+
+/**
+  Sets the width of the paddle.
+  @param width - width of the paddle
+*/
 void Paddle::setPaddleWidth(float width) {
     paddle_width = width;
 }
 
+/**
+  Sets the height of the paddle.
+  @param height - height of the paddle
+*/
 void Paddle::setPaddleHeight(float height) {
     paddle_height = height;
 }
 
+/**
+  Sets the x-coordinate of the paddle.
+  @param x - x-coordinate of the paddle
+*/
 void Paddle::setPaddleX(float x) {
     paddle_x = x;
 }
 
+/**
+  Sets the y-coordinate of the paddle.
+  @param y - y-coordinate of the paddle
+*/
 void Paddle::setPaddleY(float y) {
     paddle_y = y;
 }
 
+/**
+  Sets the speed of the paddle.
+  @param speed - speed of the paddle
+*/
 void Paddle::setPaddleSpeed(int speed) {
     paddle_speed = speed;
 }
 
+/**
+  Sets the segment of the paddle.
+  @param s - segment of the paddle
+*/
 void Paddle::setSegment(int s) {
     segment = s;
 }
 
+/**
+  Sets the roundness of the paddle.
+  @param r - roundness of the paddle
+*/
 void Paddle::setRoundness(float r) {
     roundness = r;
 }
 
+/**
+  Sets the color of the paddle.
+  @param color - color of the paddle
+*/
 void Paddle::setPaddleColor(Color color) {
     paddle_color = color;
 }
