@@ -10,24 +10,25 @@
 // Constructor for the SoundManager class
 SoundManager::SoundManager() {
     // Load sound buffers and set up sounds
-    if (!shootBuffer.loadFromFile("shoot.mp3")) {
-        // Handle error loading shoot sound file
-        cout << "Error loading shoot sound file" << endl;
-    }
-    shootSound.setBuffer(shootBuffer);
-
     if (!hitBuffer.loadFromFile("hit.mp3")) {
+        // Handle error loading hit sound file
         cout << "Error loading hit sound file" << endl;
     }
     hitSound.setBuffer(hitBuffer);
+
+    if (!scoreBuffer.loadFromFile("score.mp3")) {
+        // Handle error loading score sound file
+        cout << "Error loading score sound file" << endl;
+    }
+    scoreSound.setBuffer(scoreBuffer);
 }
 
 // Function to play the shoot sound
-void SoundManager::playShootSound() {
-    shootSound.play();
+void SoundManager::playHitSound() {
+    hitSound.play();
 }
 
 // Function to play the hit sound
-void SoundManager::playHitSound() {
-    hitSound.play();
+void SoundManager::playScoreSound() {
+    scoreSound.play();
 }
