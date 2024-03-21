@@ -177,3 +177,4 @@ To build and run the game, follow these steps:
   + Game loop implementation, collision detection, and AI behavior.
 + **Acknowledgement:**
   + Utilizes the Raylib library for graphics and input handling.
+  + Created this project while following along with [Nick Koumaris](https://github.com/educ8s)' tutorial, with some minor modifications.
