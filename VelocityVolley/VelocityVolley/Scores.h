@@ -4,7 +4,7 @@
 * Description: This file contains the declaration of the Scores class.
 *****************************************/
 
-// Inlcude directives
+// Include directives
 #pragma once
 #include "Game.h"
 
