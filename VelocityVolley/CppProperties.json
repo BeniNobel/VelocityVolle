@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "inheritEnvironments": [
+        "msvc_x86"
+      ],
+      "name": "x86-Debug",
+      "includePath": [
+        "C:\\SFML-2.6.1\\include\\SFML",
+        "C:\\raylib\\src",
+        "${env.INCLUDE}",
+        "${workspaceRoot}\\**"
+      ],
+      "defines": [
+        "WIN32",
+        "_DEBUG",
+        "UNICODE",
+        "_UNICODE"
+      ],
+      "intelliSenseMode": "windows-msvc-x86"
+    }
+  ]
+}
