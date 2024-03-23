@@ -1,6 +1,6 @@
 /***************************************
 * Beni Nobel inganji
-* File name: Ball.cpp
+* File name: Line.cpp
 * Description: This file contains the function definitions for the Line class.
 *****************************************/
 

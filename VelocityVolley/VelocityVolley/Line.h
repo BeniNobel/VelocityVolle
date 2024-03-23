@@ -1,6 +1,6 @@
 /***************************************
 * Beni Nobel inganji
-* File name: Ball.h
+* File name: Line.h
 * Description: This file contains the declaration of the Line class.
 *****************************************/
 

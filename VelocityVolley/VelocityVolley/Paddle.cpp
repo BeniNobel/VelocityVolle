@@ -1,6 +1,6 @@
 /***************************************
 * Beni Nobel inganji
-* File name: Ball.cpp
+* File name: Paddle.cpp
 * Description: This file contains the function definitions for the Paddle class.
 *****************************************/
 
